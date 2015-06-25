@@ -1,0 +1,181 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	font-family: "Libre Baskerville", "Baskerville", garamond, serif;
+	font-style: italic;
+	width: 100%;
+	overflow: hidden;
+	background: #EBE9E4;
+}
+
+a #linklead {
+	color: #4E4E53;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#linklead:hover {
+	color: #79797D;
+}
+
+a #linkfull {
+	color: #4E4E53;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#linkfull:hover {
+	color: #EBE9E4;
+}
+
+a #linksecond {
+	color: #79797D;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#linksecond:hover {
+	color: black;
+}
+
+a #linkopen {
+	color: #EBE9E4;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#linkopen:hover {
+	color: #4E4E53;
+}
+
+.socialopen {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	margin: 0 5px;
+	border: 1px solid #4E4E53;
+	border-radius: 50%;
+	background-color: #EBE9E4;
+	transition: background-color .3s ease;
+}
+
+.socialopen:hover {
+	background-color: #4E4E53;
+}
+
+.socialfull i {
+	font-size: 16px;
+}
+
+.socialopen i {
+	font-size: 16px;
+}
+
+.socialfull {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	margin: 0 5px;
+	background-color: #4E4E53;
+	border: 1px solid #4E4E53;
+	border-radius: 50%;
+	transition: background-color .3s ease;
+}
+
+.socialfull:hover {
+	background-color: #EBE9E4;
+}
+
+.sociallinks {
+	padding: 20px 0 20px 0;
+}
+
+#puritan {
+	background: #EBE9E4;
+	padding-bottom: 0px;
+}
+
+#puritan p {
+	color: #79797D;
+	margin-bottom: 0px;
+}
+
+#about {
+	background: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	min-height: 100px;
+}
+
+#bench {
+	background-image: url('../images/bench.png');
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 250px;
+}
+
+#about h2 {
+	color: #79797D;
+}
+
+.vitals {
+	padding-top: 30px;
+}
+
+#things {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: #2D2D35;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	min-height: 350px;
+}
+
+#things h3, p {
+	color: #D8D8D8;
+}
+
+#things h3 {
+	font-style: normal;
+}
+
+#things p {
+	font-style: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+footer .legal {
+	font-style: normal;
+	margin-top: 10px;
+	font-size: 10px;
+	color: #79797D;
+}
