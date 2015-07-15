@@ -20,10 +20,6 @@ body {
   text-align:center;
 }
 
-.downarrow {
-	padding: 30px 0 0 0;
-}
-
 a #linklead {
 	color: #4E4E53;
 	text-decoration: none;
@@ -110,26 +106,6 @@ a #linkopen {
 	padding: 20px 0 20px 0;
 }
 
-.btn-primary {
-	border-width: 3px;
-	border-radius: 50%;
-	color: white;
-	background-color: transparent;
-	border-color: white;
-	height: 57px;
-	width: 57px;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: #4E4E53;
-  background-color: #fff;
-  border-color: #fff;
-}
-
 #puritan {
 	background: #EBE9E4;
 	padding-bottom: 35px;
@@ -159,11 +135,9 @@ a #linkopen {
 	height: 250px;
 }
 
-.snap {
-	padding: 60px 20px 35px 20px;
+#snap {
+	margin: 30px 0 25px 0;
 }
-
-
 
 #things {
 	padding-top: 50px;
@@ -197,7 +171,8 @@ a #linkopen {
 	overflow: hidden;
 	padding-bottom: 56.25%;
 	position: relative;
-	height: 0;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .video-responsive iframe {
@@ -206,6 +181,8 @@ a #linkopen {
 	height: 100%;
 	width: 100%;
 	position: absolute;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 footer .legal {
