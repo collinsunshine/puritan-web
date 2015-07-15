@@ -7,7 +7,21 @@ body {
 	font-style: italic;
 	width: 100%;
 	overflow: hidden;
-	background: #EBE9E4;
+	background: white;
+}
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:10;
+  top:2%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+.downarrow {
+	padding: 30px 0 0 0;
 }
 
 a #linklead {
@@ -53,9 +67,9 @@ a #linkopen {
 .socialopen {
 	text-decoration: none;
 	display: inline-block;
-	line-height: 24px;
-	width: 24px;
-	height: 24px;
+	line-height: 25px;
+	width: 25px;
+	height: 25px;
 	margin: 0 5px;
 	border: 1px solid #4E4E53;
 	border-radius: 50%;
@@ -78,9 +92,9 @@ a #linkopen {
 .socialfull {
 	text-decoration: none;
 	display: inline-block;
-	line-height: 24px;
-	width: 24px;
-	height: 24px;
+	line-height: 25px;
+	width: 25px;
+	height: 25px;
 	margin: 0 5px;
 	background-color: #4E4E53;
 	border: 1px solid #4E4E53;
@@ -96,9 +110,30 @@ a #linkopen {
 	padding: 20px 0 20px 0;
 }
 
+.btn-primary {
+	border-width: 3px;
+	border-radius: 50%;
+	color: white;
+	background-color: transparent;
+	border-color: white;
+	height: 57px;
+	width: 57px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #4E4E53;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 #puritan {
 	background: #EBE9E4;
-	padding-bottom: 0px;
+	padding-bottom: 35px;
+	margin-bottom: 0;
 }
 
 #puritan p {
@@ -107,11 +142,13 @@ a #linkopen {
 }
 
 #about {
-	background: white;
-	margin-top: 0;
+	background: #2D2D35;
 	margin-bottom: 0;
-	width: 100%;
 	min-height: 100px;
+}
+
+#about h1 {
+	color: #D8D8D8;
 }
 
 #bench {
@@ -122,13 +159,11 @@ a #linkopen {
 	height: 250px;
 }
 
-#about h2 {
-	color: #79797D;
+.snap {
+	padding: 60px 20px 35px 20px;
 }
 
-.vitals {
-	padding-top: 30px;
-}
+
 
 #things {
 	padding-top: 50px;

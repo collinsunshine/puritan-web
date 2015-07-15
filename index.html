@@ -43,10 +43,30 @@
   </head>
   <body>
 
+    <!-- CAROUSEL --> 
+    <div class="overlay">
+      <img src="images/puritanvector-white-shadow.png" alt="Puritan Brew Co" style="width: 50%; height: 50%;">
+    </div>
+    <div class="banner">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/carousel1.png" style="width: 100%; height: 600;" alt="Girl Studying">
+          </div>
+          <div class="item">
+            <img src="images/carousel2.png" style="width: 100%; height: 600;"alt="Beertails">
+          </div>
+          <div class="item">
+            <img src="images/carousel3.png" style="width: 100%; height: 600;"alt="Coffee Pour">
+          </div>
+        </div><!-- .carousel-inner --> 
+      </div><!-- .carousel --> 
+    </div><!-- .banner --> 
+
+    <!-- PURITAN --> 
     <div id="puritan" class="jumbotron text-center">
-      <div class="video-responsive">
-        <iframe src="//player.vimeo.com/video/113429186?title=0&amp;byline=0&amp;portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
       <div class="vitals text-center">
         <p><a href="https://www.google.com/maps/place/205+W+Dickson+St,+Fayetteville,+AR+72701/@36.065994,-94.1620342,17z/data=!3m1!4b1!4m2!3m1!1s0x87c96ed9f8b7c035:0xef2b7c1487fa4b98" target="_blank" alt="Location"><span id="linksecond"><i class="fa fa-map-marker"></i> 205 W Dickson St, Fayetteville AR</span></a></p>
         <p><i class="fa fa-clock-o"></i> M-W 7am-11pm | Th-Sa 7am - midnight | closed Sundays</p>
@@ -58,39 +78,49 @@
         <a href="http://instagram.com/puritanbrewco" target="_blank" alt="Instagram"><span id="linkfull" class="socialopen"><i class="fa fa-instagram fa-fw"></i></span></a>
         <a href="https://twitter.com/PuritanBrewCo" target="_blank" alt="Facebook"><span id="linkopen" class="socialfull"><i class="fa fa-twitter fa-fw"></i></span></a>
       </div><!--/#sociallinks-->
-        
-
-      <a href="#" class="scroll-link" data-id="about"><span id="linklead"><i class="fa fa-angle-double-down fa-3x"></i></span></a>
+      <div>
+        <a href="#" class="scroll-link" data-id="snap"><span id="linklead"><i class="fa fa-angle-double-down fa-3x"></i></span></a>
+      </div>
     </div><!--/#puritan-->
 
+    <!-- ABOUT --> 
     <div id="about" class="jumbotron text-center">
-      <h2>" The driving idea behind Puritan is that we all should go where things are better. "</h2>
+      <h1>Start Well, End Well.</h1>
     </div><!--/#about-->
 
-    <div id="bench" class="jumbotron text-center">
-      
+    <!--<div id="bench" class="jumbotron text-center"> </div>-->
+
+    <!-- SnapWidget -->
+    <div id="snap" class="snap">
+      <script src="http://snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="http://snapwidget.com/in/?u=cHVyaXRhbmJyZXdjb3xpbnwxMjV8NXwyfHxub3wyMHxmYWRlT3V0fG9uU3RhcnR8bm98eWVz&ve=130715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
     </div>
 
-
+    <!-- 
     <div id="things" class="text-center">
       <div class="row">
         <div class="col-sm-4">
-          <img class="img-circle" src="images/tulip.png" alt="latte art" style="width: 150px; height: 150px;">
+          <img class="img-circle" src="images/tulip.png" alt="incredible coffee" style="width: 150px; height: 150px;">
           <h3>Quality</h3>
           <p>Our beer, coffee, and food are on the menu because each is crafted by someone who cares deeply about what they make.</p>
-        </div><!--/#col-md-4-->
+        </div>
         <div class="col-sm-4">
           <img class="img-circle" src="images/stairs.png" alt="chairs = community" style="width: 150px; height: 150px;">
           <h3>Conversation</h3>
           <p>The best pairing for any food or drink is someone to share it with. Our shop is designed to provide patrons the perfect place for engaging dialogue (or trialogue, or septalogue. We have big tables.)</p>
-        </div><!--/#col-md-4-->
+        </div>
         <div class="col-sm-4">
           <img class="img-circle" src="images/couch.png" alt="couch" style="width: 150px; height: 150px">
           <h3>Comfort</h3>
           <p>Physically, our chairs and benches are comfy. More importantly though, you needn’t be a craft beer or coffee expert to enjoy our offerings. We’ll help you find exactly what you’ll enjoy the most.</p>
-        </div><!--/#col-md-4-->
-      </div><!--/#row-->
-    </div><!--/#things-->
+        </div>
+      </div>
+    </div>-->
+
+    <!-- VIDEO --> 
+    <div class="video-responsive">
+        <iframe src="//player.vimeo.com/video/113429186?title=0&amp;byline=0&amp;portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div><!--/#video--> 
 
     <!-- FOOTER -->
     <footer class="text-center">
