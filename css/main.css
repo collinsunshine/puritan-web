@@ -10,6 +10,13 @@ body {
 	background: white;
 }
 
+h2 {
+	margin-bottom: 25px;
+	color: #2D2D35;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
 .overlay { 
   color:#fff;
   position:absolute;
@@ -71,6 +78,24 @@ a #linkopen {
 	border-radius: 50%;
 	background-color: #EBE9E4;
 	transition: background-color .3s ease;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+.tap {
+	background-color: #EBE9E4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#taphunter-webmenu {
+	color: #79797D;
+}
+
+#taphunter-webmenu a {
+	color: #2D2D35;
 }
 
 .socialopen:hover {
