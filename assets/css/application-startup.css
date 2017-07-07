@@ -1,0 +1,252 @@
+.legal p {
+  color: black;
+}
+
+.subheader p {
+  text-decoration: underline;
+}
+
+h3, .h3 {
+  font-family: "raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .2em;
+}
+
+h4, .h4 {
+  font-family: "raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .2em;
+}
+
+/* navbar */
+.app-navbar {
+  font-weight: 300;
+  letter-spacing: .2em;
+  position: absolute;
+  font-size: 15px;
+}
+
+
+/* header block */
+.btn-default-outline {
+  border: 2px solid white;
+  color: white;
+}
+.btn-default-outline:hover, .btn-default-outline:focus, .btn-primary-outline:active, .btn-primary-outline.active {
+  color: #2d3238;
+  background-color: white;
+}
+.app-header a {
+  text-decoration: none;
+  color: white;
+}
+.app-header a:hover {
+  text-decoration: none;
+  color: #eaedef;
+}
+.app-graph {
+  width: 150%;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+}
+@media (min-width: 768px) {
+  .app-graph {
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+/* video block */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* coffee block */
+.app-coffee-block {
+  background-color: #101A26;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .app-coffee-block {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* workspace block */
+.app-workspace-block {
+  background-color: #F4F5F6;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .app-workspace-block {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* brand ribbon block */
+.app-ribbon {
+  background: white;
+}
+.app-ribbon .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+/* price plan block */
+.app-price-plans {
+  background-color: white;
+}
+.app-price-plans .container {
+  margin-bottom: -40px;
+}
+.app-price-plans span {
+  color: #bdc3c7;
+}
+.app-price-plans h3, .h3 {
+  color: #2d3238;
+}
+.app-price-plans h4, .h4 {
+  color: #3498DB;
+}
+.app-price-plans li {
+  color: #3498DB;
+}
+.app-price-plans .block {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+/* layout block */
+.app-layout-block {
+  background-color: #F4F5F6;
+}
+
+/* contact block */
+.app-contact-block .h4 {
+  color: white;
+}
+.app-contact-block .h3 {
+  color: #3498db;
+}
+.app-contact-block .p {
+  color: #3498db;
+}
+
+/* map block */
+#map {
+    width: 100%;
+    height: 200px;
+}
+@media (min-width: 768px) {
+  #map {
+    height: 400px;
+  }
+}
+
+/* footer block */
+.app-footer {
+  background-color: #262F36;
+}
+.app-footer a {
+  color: white;
+}
+.app-footer a:hover {
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+/* final footer block */
+.app-final-footer {
+  background-color: #3498db;
+  height: 60px;
+}
+.app-final-footer p {
+  margin-bottom: 0;
+}
+.app-final-footer small {
+  color: #fff;
+}
+
+
+/* general block overrrides */
+@media (max-width: 768px) {
+  .block .lead {
+    line-height: 1.3;
+  }
+  .block h3 {
+    line-height: 1.15;
+  }
+}
+
+
+/* general inverse overrides */
+.block-inverse .text-muted {
+  color: rgba(255, 255, 255, .7);
+}
+.block-inverse .block-bg-img {
+  background-color: transparent;
+}
+
+
+/* general btn overrides */
+.btn-lg {
+  font-size: 15px;
+}
+.block-secondary .btn-lg {
+  width: 100%;
+}
+.btn-lg:not(.btn-block) {
+  padding: 12px 30px;
+}
+@media (min-width: 768px) {
+  .btn-lg:not(.btn-block) {
+    width: auto;
+  }
+}
+
+
+/* ie10+ */
+@media (min-width: 768px) {
+  .app-align-center {
+    display: flex;
+    align-items: center;
+  }
+}

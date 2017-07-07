@@ -4,23 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Puritan Brew Co. Beer. Coffee. Community. Fayetteville. Go Where Its Better.">
-    <meta name="author" content="Puritan Brew Co">
+    <meta name="description" content="Puritan Coffee & Beer. Proudly Serving Fayetteville, AR">
+    <meta name="author" content="Puritan Coffee & Beer">
 
-    <title>Puritan Brew Co</title>
+    <title>
+
+        Puritan Coffee & Beer
+
+    </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- GoogleFonts -->
-    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat' rel='stylesheet' type='text/css'>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700|Open+Sans:300' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrap & Custom CSS -->
+    <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+    <link href="assets/css/application-startup.css" rel="stylesheet">
 
     <!-- Google Analytics -->
     <script>
@@ -33,81 +34,108 @@
       ga('send', 'pageview');
 
     </script>
+
   </head>
 
-  <body>
+<body>
 
-    <!-- CAROUSEL --> 
-    <div class="overlay">
-      <img src="assets/images/puritanvector-white-shadow.png" alt="Puritan Brew Co" style="width: 50%; height: 50%;">
+<!--<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked">
+    <li>
+      <a href="#" class="collapsed scroll-link" data-target="#stage" data-toggle="stage" data-distance="250" data-id="coffee">COFFEE</a>
+    </li>
+    <li>
+      <a href="#" class="collapsed scroll-link" data-target="#stage" data-toggle="stage" data-distance="250" data-id="workspace">BEER</a>
+    </li>
+  </ul>
+</div>-->
+
+<div class="stage" id="stage">
+
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed p-x-0"
+              data-target="#stage" data-toggle="stage" data-distance="-250">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand p-t-0" href="#">
+        <img src="assets/img/puritan-script.svg" alt="Puritan Coffee & Beer logo" style="width: 150px;" class="p-b-lg">
+      </a>
     </div>
+    <!--<div class="navbar-collapse collapse text-uppercase">
+      <ul class="nav navbar-nav navbar-right">
+        <li >
+          <a href="#" class="scroll-link" data-id="coffee">Coffee</a>
+        </li>
+        <li >
+          <a href="#" class="scroll-link" data-id="workspace">Beer</a>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 
-    <div class="banner">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="assets/images/carousel1.png" style="width: 100%; height: 600;" alt="Girl Studying">
-          </div>
-          <div class="item">
-            <img src="assets/images/carousel2.png" style="width: 100%; height: 600;"alt="Beertails">
-          </div>
-          <div class="item">
-            <img src="assets/images/carousel3.png" style="width: 100%; height: 600;"alt="Coffee Pour">
-          </div>
-        </div><!-- .carousel-inner --> 
-      </div><!-- .carousel --> 
-    </div><!-- .banner --> 
+<!-- APP-HEADER -->
+<div class="block block-inverse block-fill-height app-header text-center"
+     style="background-image: url(assets/img/puritan-site-7.jpg);">
 
-    <!-- PURITAN --> 
-    <div id="puritan" class="jumbotron text-center">
-      <div class="vitals text-center">
-        <p><a href="https://www.google.com/maps/place/205+W+Dickson+St,+Fayetteville,+AR+72701/@36.065994,-94.1620342,17z/data=!3m1!4b1!4m2!3m1!1s0x87c96ed9f8b7c035:0xef2b7c1487fa4b98" target="_blank" alt="Location"><span id="linksecond"><i class="fa fa-map-marker"></i> 205 W Dickson St, Fayetteville AR</span></a></p>
-        <p><i class="fa fa-clock-o"></i> M-W 7am-11pm | Th-Sa 7am - midnight | closed Sundays</p>
-        <p><i class="fa fa-phone"></i> 479 . 301 . 2365</p>
-      </div><!--/#vitals-->
-      <div class="sociallinks">
-        <a href="https://facebook.com/puritanbrewcompany" target="_blank" alt="Facebook"><span id="linkopen" class="socialfull"><i class="fa fa-facebook fa-fw"></i></span></a>
-        <a href="http://instagram.com/puritanbrewco" target="_blank" alt="Instagram"><span id="linkfull" class="socialopen"><i class="fa fa-instagram fa-fw"></i></span></a>
-        <a href="https://twitter.com/PuritanBrewCo" target="_blank" alt="Facebook"><span id="linkopen" class="socialfull"><i class="fa fa-twitter fa-fw"></i></span></a>
-      </div><!--/#sociallinks-->
-      <div>
-        <a href="#" class="scroll-link" data-id="snap"><span id="linklead"><i class="fa fa-angle-double-down fa-3x"></i></span></a>
+  <div class="block-xs-middle">
+    <div class="container">
+      <h1 class="block-title">Espresso + 21 Taps of Craft Beer</h1>
+      <p>Why doesn't this happen more often?</p>
+    </div>
+  </div>
+</div><!--/.app-header-->
+
+<!-- APP-MISSION -->
+<div class="block block-secondary text-center">
+  <div class="container">
+    <h2 class="m-b-lg">Our Mission</h2>
+    <p>We exist to bring people together. Puritan is a specialty coffee shop by day and craft beer bar by night. In other words, the best of both worlds at all times.</p>
+  </div>
+</div><!--/#mission-->
+
+<!-- MAP -->
+<div id="map"></div>
+<!--/#map -->
+
+<!-- APP-FOOTER-SOCIAL -->
+<div class="block block-inverse app-footer">
+ <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://facebook.com/puritancoffeebeer" target="_blank" alt="Facebook"><h3 class="text-uppercase">Facebook</h3></a>
       </div>
-    </div><!--/#puritan-->
-
-    <!-- ABOUT --> 
-    <div id="about" class="jumbotron text-center">
-      <h1>Start Well, End Well.</h1>
-    </div><!--/#about-->
-
-    <!-- SnapWidget -->
-    <div id="snap">
-      <script src="http://snapwidget.com/js/snapwidget.js"></script>
-      <iframe src="http://snapwidget.com/in/?u=cHVyaXRhbmJyZXdjb3xpbnwxMjV8NXwyfHxub3wwfGZhZGVPdXR8b25TdGFydHxub3x5ZXM=&ve=150715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+      <div class="col-md-4">
+        <a href="https://twitter.com/puritanAR" target="_blank" alt="Twitter"><h3 class="text-uppercase">Twitter</h3></a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://instagram.com/puritancoffeebeer" target="_blank" alt="Instagram"><h3 class="text-uppercase">Instagram</h3></a>
+      </div>
     </div>
+  </div>
+</div>
+<!--.app-footer-social -->
 
-    <!-- TAPHUNTER --> 
-    <div id="container" class="tap">
-      <h2 class="text-center">CURRENT BEERS:</h2>
-        <div id='taphunter-webmenu'></div>
-        <script type='text/javascript' src='https://thetaphunter.appspot.com/widgets/location/v2/6447075602989056.js?showprice=yes&layout=twocolumn&order=name'></script><!--/#taphunter--> 
-    </div>
+<!-- APP-FOOTER-FINAL -->
+<div class="app-final-footer text-center">
+    <p class="p-y"><small>2017 Puritan Coffee & Beer. Proudly serving Fayetteville, AR.</small></p>
+</div>
+<!--/.app-footer-final -->
 
-    <!-- VIDEO --> 
-    <div class="video-responsive">
-        <iframe src="//player.vimeo.com/video/113429186?title=0&amp;byline=0&amp;portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div><!--/#video--> 
+</div>
 
-    <!-- FOOTER -->
-    <footer class="text-center">
-      <div><p class="legal">© 2015 Puritan Brew Co</p></div>
-    </footer>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="assets/js/scroll.js">
-  </script>
-
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4yekAajhFnrcxuzJiciOzZwxtWDJVxsE"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/scroll.js"></script>
   </body>
 </html>
